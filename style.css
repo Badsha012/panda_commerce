@@ -1,0 +1,33 @@
+
+
+/* 
+
+*{
+    background-color: blue;
+} */
+
+
+nav{
+   display: flex;
+   justify-content: space-between;
+    
+}
+/* search  style */
+.search-style{
+     /* background-color:  rgb(241, 241, 241); */
+     position: relative;
+}
+.search-style input{
+    border-radius: 66px;
+    padding:  15px 30px;
+    width: 500px;
+     background-color:  rgb(241, 241, 241);
+}
+.search-style i{
+    /* font-size: 20px; */
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+
