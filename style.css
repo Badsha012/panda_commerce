@@ -1,33 +1,115 @@
-
-
 /* 
 
 *{
     background-color: blue;
 } */
-
-
-nav{
-   display: flex;
-   justify-content: space-between;
-    
+* {
+    box-sizing: border-box;
 }
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
 /* search  style */
-.search-style{
-     /* background-color:  rgb(241, 241, 241); */
-     position: relative;
+.search-style {
+    /* background-color:  rgb(241, 241, 241); */
+    position: relative;
+    color: #BABABA;
 }
-.search-style input{
+
+.search-style input {
     border-radius: 66px;
-    padding:  15px 30px;
+    padding: 15px 30px;
+    border: none;
     width: 500px;
-     background-color:  rgb(241, 241, 241);
+    background-color: rgb(241, 241, 241);
 }
-.search-style i{
+
+.search-style i {
     /* font-size: 20px; */
     position: absolute;
-    top: 0;
-    right: 0;
-    
+    top: 17px;
+    right: 20px;
+
 }
 
+/* navbar style */
+.nav-item {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.nav-item li a {
+    text-decoration: none;
+    color: #707070;
+    font-size: 16px;
+    font-weight: 600px;
+}
+
+/* banner style */
+.banner-style {
+    background-color: rgb(254, 234, 233);
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    align-items: center;
+}
+
+.banner-style h2 {
+    color: rgb(31, 31, 31);
+
+    font-size: 56px;
+    font-weight: bold;
+    /* line-height: 84px; */
+    /* letter-spacing: 0%; */
+    /* text-align: left; */
+}
+
+.banner-style p {
+    color: #4E4E4E;
+
+    /* font-size: 56px; */
+    /* font-weight: bold; */
+    /* line-height: 84px; */
+    /* letter-spacing: 0%; */
+    /* text-align: left; */
+}
+
+
+
+.banner img {
+    Width: 402px;
+    Height: 378px
+}
+
+/* span style */
+.price {
+    color: #ff136f;
+    font-weight: bold;
+    font-size: 52px;
+    display: block;
+    padding: 20px;
+    margin-bottom: 0px;
+}
+
+.panda-btn{
+   border-radius: 6px;
+
+
+background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%
+,rgb(255, 19, 111) 99.994%);
+padding: 15px 35px;
+border: none;
+color: white;
+font-weight: bold;
+}
