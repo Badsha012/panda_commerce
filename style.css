@@ -19,6 +19,7 @@
 
 }
 
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -183,6 +184,27 @@ nav {
 
 /* shoes and bag secion */
 /* shoes */
+.common-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.p-style {
+    color: #FF9D00;
+    font-family: 500px;
+    font-size: 20px;
+}
+
+.shoes-bag {
+
+    background-color: rgb(244, 244, 244)
+}
+
+.shoes-section {
+    /* background-color: rgb(244, 244, 244); */
+    padding: 50px auto;
+}
+
 .shoes-card-container {
     display: flex;
     justify-content: space-between;
@@ -192,4 +214,70 @@ nav {
 .shoes-card img {
     width: 336px;
     height: 202px;
+}
+
+.card-price {
+    display: block;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.shoes-card {
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 25px;
+}
+
+.shoes-card .panda-btn {
+    background: black;
+}
+
+/*bag  */
+.bag-section {
+    /* background: rgb(244, 244, 244); */
+    padding: 50px auto;
+}
+
+.bag-card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.bag-card img {
+    width: 290px;
+    height: 290px;
+
+}
+
+.bag-card {
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 25px;
+}
+
+.bag-card .panda-btn {
+    background: black;
+}
+
+
+/* content section */
+.content-section {
+     background-color: #fff2f1;
+  text-align: center;
+  padding: 35px 20px;
+  margin: 35px auto;
+  border-radius: 15px;
+    
+}
+
+.contact-int  input{
+    border:none;
+    padding: 25px 152px;
+}
+.contact-int .panda-btn{
+     border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
